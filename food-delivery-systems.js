@@ -16,7 +16,7 @@ class FoodItem {
     return this.#price;
   }
 
-  // Change the price safely.
+
   setPrice(newPrice) {
     if (
       typeof newPrice !== "number" ||
@@ -43,3 +43,25 @@ class FoodItem {
     return this.constructor.name;
   }
 }
+
+
+
+class Pizza extends FoodItem {
+  constructor(name, price, size, toppings = []) {
+    super(name, price);
+
+    this.size = size;
+    this.toppings = toppings;
+  }
+
+ 
+  getDeliveryFee() {
+   console.log(25);
+  }
+
+  getDescription() {
+    console.log(`${this.size} pizza with ${this.toppings}`);
+  }
+}
+
+
