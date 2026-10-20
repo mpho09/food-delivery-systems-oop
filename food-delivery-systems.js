@@ -97,3 +97,22 @@ class Drink extends FoodItem {
     console.log(`${this.ml} ml drink`);
   }
 }
+
+const pizza = new Pizza(
+  "Chicken Pizza",
+  89.99,
+  "Large",
+  ["Chicken", "Mushroom"]
+);
+
+const burger = new Burger(
+  "Classic Burger",
+  65.50,
+  "Beef"
+);
+
+const drink = new Drink(
+  "Orange Juice",
+  18.00,
+  330
+);
