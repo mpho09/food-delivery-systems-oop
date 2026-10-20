@@ -1,4 +1,4 @@
-# 🍔 Food Delivery System – JavaScript OOP Project
+# Food Delivery System – JavaScript OOP Project
 
 ## Project Overview
 
