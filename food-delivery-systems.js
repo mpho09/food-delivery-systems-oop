@@ -98,6 +98,35 @@ class Drink extends FoodItem {
   }
 }
 
+class Order {
+  constructor(customerName) {
+    this.customerName = customerName;
+    this.items = [];
+  }
+
+  addItem(foodItem) {
+    if (
+      !(foodItem instanceof FoodItem)
+    ) {
+      throw new Error("Please add a valid food item.");
+    }
+
+    this.items.push(foodItem);
+  }
+
+    getFoodTotal() {
+    let total = 0;
+
+    for (const item of this.items) {
+      total += item.getPrice();
+    }
+
+    return total;
+  }
+}
+
+ 
+
 const pizza = new Pizza("Chicken Pizza",89.99,"Large",["Chicken", "Mushroom"]);
 
 const burger = new Burger("Classic Burger",65.50,"Beef");

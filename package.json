@@ -1,0 +1,21 @@
+{
+  "name": "food-delivery-systems-oop",
+  "version": "1.0.0",
+  "description": "The system allows users to add different food items to an order, calculate the subtotal, calculate delivery fees, and display the final amount to pay.",
+  "main": "food-delivery-systems.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpho09/food-delivery-systems-oop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mpho09/food-delivery-systems-oop/issues"
+  },
+  "homepage": "https://github.com/mpho09/food-delivery-systems-oop#readme"
+}
