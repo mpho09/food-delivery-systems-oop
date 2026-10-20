@@ -1,4 +1,4 @@
-# Food Delivery System – JavaScript OOP Project
+# JavaScript OOP Project
 
 ## Project Overview
 
