@@ -65,3 +65,35 @@ class Pizza extends FoodItem {
 }
 
 
+class Burger extends FoodItem {
+  constructor(name, price, pattyType) {
+    super(name, price);
+
+    this.pattyType = pattyType;
+   
+  }
+
+  getDeliveryFee() {
+    console.log("your delivery fee is" + 18);
+  }
+
+  getDescription() {
+    console.log(`${this.pattyType} burger`);
+  }
+}
+
+class Drink extends FoodItem {
+  constructor(name, price, ml) {
+    super(name, price);
+
+    this.ml = ml;
+    
+  }
+  getDeliveryFee() {
+     console.log("your delivery fee is" + 26);
+  }
+
+  getDescription() {
+    console.log(`${this.ml} ml drink`);
+  }
+}
